@@ -2,16 +2,37 @@
 
 ESP32 Bicycle Computer, with GPS and Engine Sensors
 
-Implemented:
-- ESP32 Initial Platformio Setup
+###  Displays:
+- Speed (from GPS)
+- Distance Travelled (from GPS)
+- RPM (from Hall Effect Sensor)
+- CHT (from TMP36)
+- EGT (from TMP36)
+- Ambient Temperature (from TMP36)
+- Clutch Status (from HES)
+- Brake Status (from HES)
 
-## To Do:
+### Modes:
+- No Satellites
+- Engine Off
+- Clutch Out
+- Engine On
+- Riding
+
+
+### Implemented:
+- ESP32 Initial Platformio Setup
+- Display
+- GPS
+- Hall Effect Sensors for Engine RPM
+
+
+
+### To Do:
 - Implement:
-    - Display
-    - GPS
+    - Odometer
     - Buzzer
     - Switch Controls
-    - Hall Effect Sensors for Engine RPM
     - Hall Effect Sensors for levers (Clutch and Brake)
     - Sensors for Cylinder Head and Exhaust Gas Temperatures
 
